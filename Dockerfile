@@ -9,7 +9,7 @@ RUN         apt-get update; apt-get install -y nodejs=0.10.22-1chl1~quantal1
 
 # COMMIT APP FILES
 ADD         package.json /root/
-ADD         app.js /root/
+ADD         server.js /root/
 
 # INSTALL APP DEPENDENCIES
 RUN         cd /root; npm install

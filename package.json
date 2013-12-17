@@ -1,17 +1,14 @@
 {
-  "name": "docker-urlarchiver",
+  "name": "oakleon_server",
   "version": "0.0.0",
-  "description": "Saves a URL response to Amazon S3",
-  "repository": "https://github.com/adamalex/docker-urlarchiver",
-  "main": "app.js",
+  "description": "Simple server for oakleon.com",
+  "repository": "https://github.com/timcash/oakleon_server",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "request": "~2.27.0",
-    "awssum": "~1.1.1",
-    "awssum-amazon": "~1.1.1",
-    "awssum-amazon-s3": "~1.3.1"
+    "send": "~0.1.4"
   },
   "private": true
 }
