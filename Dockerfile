@@ -13,8 +13,6 @@ RUN 		cd /root; git clone https://github.com/timcash/oakleon_server
 
 # INSTALL APP DEPENDENCIES
 RUN         cd /root/oakleon_server; npm install
-RUN         cd /root/oakleon; bower install
-RUN         cd /root/oakleon; /usr/lib/node_modules/grunt build
 
 EXPOSE 3000
 
