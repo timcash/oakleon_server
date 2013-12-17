@@ -2,7 +2,7 @@ var http = require('http');
 var send = require('send');
 var url = require('url');
 
-var root = '../oakleon/dist';
+var root = '../oakleon_dist';
 var port = 3000;
 
 var app = http.createServer(function(req, res){
