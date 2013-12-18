@@ -18,5 +18,4 @@ EXPOSE 3000
 
 # EXECUTE NPM START BY DEFAULT
 WORKDIR     /root/oakleon_server
-ENTRYPOINT  ["/usr/bin/npm"]
-CMD         ["start"]
+ENTRYPOINT  ["/usr/bin/npm","start"]
