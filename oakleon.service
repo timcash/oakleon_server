@@ -4,7 +4,7 @@ After=docker.service
 
 [Service]
 Restart=always
-ExecStart=/usr/bin/docker run -d -p 80:3000 -w="/root/oakleon_server/" tim/oakleon /usr/bin/npm start
+ExecStart=/usr/bin/docker run -d -p 80:3000 tim/oakleon2
 
 [Install]
 WantedBy=local.target
